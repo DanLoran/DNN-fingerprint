@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
-from keras.applications.mobilenetv2 import preprocess_input
-from keras.applications.mobilenetv2 import decode_predictions
-from keras.applications.mobilenetv2 import MobileNetV2
+from keras.applications.mobilenet import preprocess_input
+from keras.applications.mobilenet import decode_predictions
+from keras.applications import MobileNetV2
 
 # iteration count
 _iter = 1
@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
     # predict the probability across all output classes
     for i in range(_iter):
-        raw_input('{} iteration, press any key to perform...'.format(str(i)))
+        #raw_input('{} iteration, press any key to perform...'.format(str(i)))
         yhat = model.predict(image)
 
     # return if not iter
