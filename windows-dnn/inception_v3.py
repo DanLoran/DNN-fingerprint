@@ -6,7 +6,7 @@ from keras.applications.inception_v3 import decode_predictions
 from keras.applications.inception_v3 import InceptionV3
 
 # iteration count
-_iter = 1 
+_iter = 100
 
 
 """

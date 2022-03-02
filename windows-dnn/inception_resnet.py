@@ -6,7 +6,7 @@ from keras.applications.inception_resnet_v2 import decode_predictions
 from keras.applications.inception_resnet_v2 import InceptionResNetV2 
 
 # iteration count
-_iter = 1 
+_iter = 100
 
 
 """

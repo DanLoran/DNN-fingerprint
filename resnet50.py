@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     # predict the probability across all output classes
     for i in range(_iter):
-        raw_input('{} iteration, press any key to perform...'.format(str(i)))
+        #raw_input('{} iteration, press any key to perform...'.format(str(i)))
         yhat = model.predict(image)
 
     # return if no iteration

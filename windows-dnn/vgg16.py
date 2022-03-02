@@ -6,7 +6,7 @@ from keras.applications.vgg16 import decode_predictions
 from keras.applications.vgg16 import VGG16
 
 # iteration count
-_iter = 1 
+_iter = 100
 
 
 """

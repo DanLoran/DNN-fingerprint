@@ -6,7 +6,7 @@ from keras.applications.mobilenet import decode_predictions
 from keras.applications.mobilenet import MobileNet
 
 # iteration count
-_iter = 1
+_iter = 100
 
 
 """

@@ -6,7 +6,7 @@ from keras.applications.xception import decode_predictions
 from keras.applications.xception import Xception 
 
 # iteration count
-_iter = 1 
+_iter = 100 
 
 
 """

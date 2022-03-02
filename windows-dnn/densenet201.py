@@ -6,7 +6,7 @@ from keras.applications.densenet import decode_predictions
 from keras.applications.densenet import DenseNet201
 
 # iteration count
-_iter = 1
+_iter = 100
 
 
 """
