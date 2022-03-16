@@ -1,0 +1,18 @@
+vtune -collect uarch-exploration -result-dir=densenet121_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\densenet121.py -format=csv
+
+
+vtune -collect-with runsa  -knob l0-sampling-type=time -knob l0-sampling-interval=1 -knob event-config=BR_MISP_RETIRED.ALL_BRANCHES -result-dir=densenet121_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\densenet121.py -format=csv
+
+vtune -r densenet121_results -R time -r-k group_by=Thread -r-k sort_column_by=PMUEventCount -r-k column_by=PMUEventCount/PMUEventType >densenet121_results.txt
+
+
+vtune -collect uarch-exploration -result-dir=densenet121_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\densenet121.py -format=csv
+vtune -collect uarch-exploration -result-dir=densenet169_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\densenet169.py -format=csv
+vtune -collect uarch-exploration -result-dir=densenet201_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\densenet201.py -format=csv
+vtune -collect uarch-exploration -result-dir=inception_resnet_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\inception_resnet.py -format=csv
+vtune -collect uarch-exploration -result-dir=inception_v3_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\inception_v3.py -format=csv
+vtune -collect uarch-exploration -result-dir=mobilenetv1_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\mobilenetv1.py -format=csv
+vtune -collect uarch-exploration -result-dir=vgg16_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\vgg16.py -format=csv
+vtune -collect uarch-exploration -result-dir=vgg19_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\vgg19.py -format=csv
+vtune -collect uarch-exploration -result-dir=xception_results C:\Users\Daniel\anaconda3\envs\dnnfingerprint\python.exe C:\Users\Daniel\Desktop\rootWorkspace\eec270\DNN-fingerprint\windows-dnn\xception.py -format=csv
+

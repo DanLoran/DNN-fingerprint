@@ -1,0 +1,267 @@
+Thread: Thread (TID: 19704)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+0                 0.000         0.226                                         582,000,873                                               5,600,126
+1                 0.226         0.452                                         702,001,053                                               5,200,117
+2                 0.452         0.678                                         666,000,999                                               6,000,135
+3                 0.678         0.904                                         646,000,969                                               6,000,135
+4                 0.904         1.130                                         644,000,966                                               5,600,126
+5                 1.130         1.356                                         640,000,960                                               5,600,126
+6                 1.356         1.582                                         638,000,957                                               6,000,135
+7                 1.582         1.808                                         716,001,074                                               4,800,108
+8                 1.808         2.034                                         680,001,020                                               5,200,117
+9                 2.034         2.260                                         630,000,945                                               3,600,081
+10                2.260         2.486                                         750,001,125                                               6,800,153
+11                2.486         2.712                                         788,001,182                                               7,600,171
+12                2.712         2.938                                         784,001,176                                               8,000,180
+13                2.938         3.164                                         784,001,176                                               8,000,180
+14                3.164         3.390                                         782,001,173                                               7,600,171
+15                3.390         3.616                                         776,001,164                                               7,600,171
+16                3.616         3.842                                         782,001,173                                               8,000,180
+17                3.842         4.068                                         766,001,149                                               4,800,108
+18                4.068         4.295                                         782,001,173                                               6,400,144
+19                4.295         4.521                                         746,001,119                                               5,600,126
+20                4.521         4.747                                         780,001,170                                               7,200,162
+21                4.747         4.973                                         790,001,185                                               7,600,171
+22                4.973         5.199                                         778,001,167                                               6,800,153
+23                5.199         5.425                                         784,001,176                                               4,800,108
+24                5.425         5.651                                         794,001,191                                               2,000,045
+25                5.651         5.877                                         772,001,158                                               2,000,045
+26                5.877         6.103                                         602,000,903                                               1,600,036
+27                6.103         6.329                                           2,000,003                                                       0
+28                6.329         6.555                                         618,000,927                                               1,600,036
+29                6.555         6.781                                         786,001,179                                               1,600,036
+
+Thread: Thread (TID: 13240)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+0                 0.000         0.226                                           4,000,006                                                       0
+4                 0.904         1.130                                           2,000,003                                                 400,009
+5                 1.130         1.356                                           2,000,003                                                       0
+
+Thread: Thread (TID: 21564)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+0                 0.000         0.226                                           6,000,009                                                       0
+1                 0.226         0.452                                           6,000,009                                                       0
+4                 0.904         1.130                                           6,000,009                                                       0
+5                 1.130         1.356                                           2,000,003                                                       0
+
+Thread: Thread (TID: 25028)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+0                 0.000         0.226                                           2,000,003                                                       0
+1                 0.226         0.452                                           2,000,003                                                       0
+4                 0.904         1.130                                           4,000,006                                                       0
+5                 1.130         1.356                                           2,000,003                                                       0
+
+Thread: Thread (TID: 23172)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+0                 0.000         0.226                                          18,000,027                                                       0
+
+Thread: Thread (TID: 22656)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+0                 0.000         0.226                                           2,000,003                                                       0
+
+Thread: Thread (TID: 17592)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+10                2.260         2.486                                           6,000,009                                                       0
+11                2.486         2.712                                           4,000,006                                                       0
+12                2.712         2.938                                           6,000,009                                                 400,009
+13                2.938         3.164                                           6,000,009                                                       0
+14                3.164         3.390                                          10,000,015                                                       0
+15                3.390         3.616                                          18,000,027                                                       0
+16                3.616         3.842                                           6,000,009                                                       0
+17                3.842         4.068                                          20,000,030                                                       0
+26                5.877         6.103                                           6,000,009                                                       0
+27                6.103         6.329                                           4,000,006                                                       0
+
+Thread: Thread (TID: 2752)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+10                2.260         2.486                                           2,000,003                                                       0
+11                2.486         2.712                                           2,000,003                                                       0
+12                2.712         2.938                                          12,000,018                                                       0
+13                2.938         3.164                                          10,000,015                                                       0
+14                3.164         3.390                                           8,000,012                                                       0
+15                3.390         3.616                                          18,000,027                                                       0
+16                3.616         3.842                                           2,000,003                                                       0
+17                3.842         4.068                                          20,000,030                                                       0
+26                5.877         6.103                                           4,000,006                                                       0
+
+Thread: Thread (TID: 21272)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+10                2.260         2.486                                           2,000,003                                                       0
+11                2.486         2.712                                           2,000,003                                                       0
+12                2.712         2.938                                           2,000,003                                                       0
+13                2.938         3.164                                           6,000,009                                                       0
+14                3.164         3.390                                           2,000,003                                                       0
+15                3.390         3.616                                          20,000,030                                                       0
+16                3.616         3.842                                           8,000,012                                                       0
+17                3.842         4.068                                          22,000,033                                                       0
+26                5.877         6.103                                           2,000,003                                                       0
+27                6.103         6.329                                           4,000,006                                                       0
+
+Thread: Thread (TID: 23476)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+10                2.260         2.486                                           4,000,006                                                       0
+12                2.712         2.938                                           2,000,003                                                       0
+13                2.938         3.164                                           8,000,012                                                       0
+14                3.164         3.390                                           2,000,003                                                       0
+15                3.390         3.616                                          16,000,024                                                       0
+16                3.616         3.842                                           8,000,012                                                       0
+17                3.842         4.068                                          22,000,033                                                       0
+26                5.877         6.103                                           4,000,006                                                       0
+27                6.103         6.329                                           4,000,006                                                       0
+
+Thread: Thread (TID: 3996)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+10                2.260         2.486                                           2,000,003                                                       0
+11                2.486         2.712                                          12,000,018                                                       0
+12                2.712         2.938                                           2,000,003                                                       0
+13                2.938         3.164                                           6,000,009                                                       0
+14                3.164         3.390                                           6,000,009                                                       0
+15                3.390         3.616                                          14,000,021                                                       0
+16                3.616         3.842                                           8,000,012                                                       0
+17                3.842         4.068                                          18,000,027                                                       0
+26                5.877         6.103                                           2,000,003                                                       0
+27                6.103         6.329                                           2,000,003                                                       0
+
+Thread: Thread (TID: 16604)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+10                2.260         2.486                                           4,000,006                                                       0
+11                2.486         2.712                                           2,000,003                                                       0
+12                2.712         2.938                                           4,000,006                                                       0
+13                2.938         3.164                                          12,000,018                                                       0
+14                3.164         3.390                                          14,000,021                                                       0
+15                3.390         3.616                                          18,000,027                                                       0
+16                3.616         3.842                                          10,000,015                                                       0
+17                3.842         4.068                                          16,000,024                                                       0
+
+Thread: Thread (TID: 23020)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+11                2.486         2.712                                           4,000,006                                                       0
+12                2.712         2.938                                          10,000,015                                                       0
+13                2.938         3.164                                           6,000,009                                                       0
+14                3.164         3.390                                           8,000,012                                                       0
+15                3.390         3.616                                          18,000,027                                                       0
+16                3.616         3.842                                           4,000,006                                                       0
+17                3.842         4.068                                          16,000,024                                                       0
+27                6.103         6.329                                           2,000,003                                                       0
+
+Thread: Thread (TID: 9696)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+12                2.712         2.938                                           4,000,006                                                       0
+14                3.164         3.390                                          10,000,015                                                       0
+15                3.390         3.616                                          14,000,021                                                       0
+16                3.616         3.842                                          10,000,015                                                       0
+17                3.842         4.068                                          20,000,030                                                       0
+26                5.877         6.103                                           2,000,003                                                       0
+27                6.103         6.329                                           2,000,003                                                       0
+
+Thread: Thread (TID: 23696)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                           2,000,003                                                       0
+
+Thread: Thread (TID: 14332)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                          58,000,087                                                 400,009
+27                6.103         6.329                                         122,000,183                                                       0
+
+Thread: Thread (TID: 20060)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                           2,000,003                                                       0
+
+Thread: Thread (TID: 12380)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                           2,000,003                                                       0
+27                6.103         6.329                                          98,000,147                                                       0
+28                6.329         6.555                                          28,000,042                                                       0
+
+Thread: Thread (TID: 4992)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                          40,000,060                                                       0
+27                6.103         6.329                                         662,000,993                                               1,200,027
+28                6.329         6.555                                          24,000,036                                                       0
+
+Thread: Thread (TID: 21760)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                          48,000,072                                                       0
+27                6.103         6.329                                         658,000,987                                                 800,018
+28                6.329         6.555                                          24,000,036                                                       0
+
+Thread: Thread (TID: 15044)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                          38,000,057                                                       0
+27                6.103         6.329                                         634,000,951                                                 400,009
+28                6.329         6.555                                          26,000,039                                                       0
+
+Thread: Thread (TID: 8864)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                          38,000,057                                                       0
+27                6.103         6.329                                         660,000,990                                                 800,018
+28                6.329         6.555                                          24,000,036                                                 800,018
+
+Thread: Thread (TID: 16848)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                          42,000,063                                                       0
+27                6.103         6.329                                         648,000,972                                                 800,018
+28                6.329         6.555                                          24,000,036                                                       0
+
+Thread: Thread (TID: 14712)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                          42,000,063                                                       0
+27                6.103         6.329                                         648,000,972                                                 800,018
+28                6.329         6.555                                          26,000,039                                                       0
+
+Thread: Thread (TID: 6920)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+26                5.877         6.103                                          42,000,063                                                       0
+27                6.103         6.329                                         644,000,966                                               2,000,045
+28                6.329         6.555                                          24,000,036                                                 400,009
+
+Thread: Thread (TID: 22864)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+27                6.103         6.329                                         130,000,195                                                 400,009
+
+Thread: Thread (TID: 23912)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+27                6.103         6.329                                           2,000,003                                                       0
+
+Thread: Thread (TID: 18224)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+27                6.103         6.329                                         130,000,195                                                       0
+
+Thread: Thread (TID: 17956)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+27                6.103         6.329                                         122,000,183                                                 400,009
+
+Thread: Thread (TID: 25580)
+timeBin  Bin Start Time  Bin End Time  Hardware Event Count:CPU_CLK_UNHALTED.REF_TSC:Self  Hardware Event Count:BR_MISP_RETIRED.ALL_BRANCHES:Self
+-------  --------------  ------------  --------------------------------------------------  ------------------------------------------------------
+28                6.329         6.555                                         100,000,150                                                       0
+

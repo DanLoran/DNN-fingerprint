@@ -1,0 +1,116 @@
+#!/usr/bin/env python
+from keras.preprocessing.image import load_img
+from keras.preprocessing.image import img_to_array
+from keras.applications.vgg19 import preprocess_input
+from keras.applications.vgg19 import decode_predictions
+from keras.applications.vgg19 import VGG19
+
+######################################################
+# Data Collection Code - Tobin Joseph
+import time
+import datetime
+import string
+import random
+
+# appname can not have underscores
+appname = "VGG19"
+secnum = 0
+# interval in ms for slicing
+interval = 100
+
+# initializing size of string 
+N = 5
+  
+# using random.choices()
+# generating random strings 
+res = ''.join(random.choices(string.ascii_uppercase +
+                             string.digits, k = N))
+thisrunname = appname + "-" + res
+
+#call to start a section
+def start_section():
+  # get app time at which we start measuring
+  start_time = datetime.datetime.now()
+  time_diff = (start_time - start_app_time)
+  global start_section_time
+  start_section_time = time_diff.total_seconds()
+
+#call to end a section
+#layer should have one of the following values:
+# Conv, Pool, Act, FC, Flat, BN, Dropout, Misc
+def end_section(layer):
+  #get app time at which we end measuring
+  end_time = datetime.datetime.now()
+  time_diff = (end_time - start_app_time)
+  execution_time = time_diff.total_seconds()
+  # append to .bat file with command to get this data
+  f = open(thisrunname + ".bat", "a")
+  # -result-dir r001tr - this options specifies the result file being used
+  # this syntax uses the current results
+  #n = round(execution_time*(interval/10))+1
+  #print(n)
+  #for i in range(n):
+  global secnum
+  secnum=secnum+1
+  f.write("\"D:\\Program Files (x86)\\intel\\vtune\\2022.0.0\\bin64\\vtune.exe\" -R hw-events -group-by process -report-output " + thisrunname + "_" + layer + "_" + str(secnum) + ".csv -format csv -csv-delimiter comma -time-filter " + str(start_section_time) + ":" + str(execution_time) + "\n")
+  f.close()
+  # sleep to generate gap and ignore the gap
+  time.sleep(0.01)
+
+# IMPORTANT: this is the first line of the program
+start_app_time = datetime.datetime.now()
+###########################################################
+
+# iteration count
+_iter = 10 
+
+
+"""
+    Main
+"""
+if __name__ == '__main__':
+    # load the model
+    # section start - Tobin Joseph
+    start_section()
+
+    model = VGG19()
+    # load an image from file
+    image = load_img('mug.jpg', target_size=(224, 224))
+    # convert the image pixels to a numpy array
+    image = img_to_array(image)
+    # reshape data for the model
+    image = image.reshape((1, image.shape[0], image.shape[1], image.shape[2]))
+    # prepare the image for the VGG model
+    image = preprocess_input(image)
+
+    #section end - Tobin Joseph
+    end_section('VGG19_pre')
+
+    # predict the probability across all output classes
+    for i in range(_iter):
+        #raw_input('{} iteration, press any key to perform...'.format(str(i)))
+        
+        #section start - Tobin Joseph
+        start_section()
+
+        yhat = model.predict(image)
+
+        #section end - Tobin Joseph
+        end_section('VGG19')
+
+    # return if no iteration
+    if not _iter: exit() 
+
+    #section tart - Tobin Joseph
+    start_section()
+
+    # convert the probabilities to class labels
+    label = decode_predictions(yhat)
+    # retrieve the most likely result, e.g. highest probability
+    label = label[0][0]
+    # print the classification
+    print('%s (%.2f%%)' % (label[1], label[2]*100))
+    # done.
+
+    #section end - Tobin Joseph
+    end_section('VGG19_post')
