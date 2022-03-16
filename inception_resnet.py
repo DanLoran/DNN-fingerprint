@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
-from keras.applications.resnet50 import preprocess_input
-from keras.applications.resnet50 import decode_predictions
-from keras.applications.resnet50 import ResNet50 
+from keras.applications.inception_resnet_v2 import preprocess_input
+from keras.applications.inception_resnet_v2 import decode_predictions
+from keras.applications.inception_resnet_v2 import InceptionResNetV2 
 
 # iteration count
 _iter = 1 
 
 if __name__ == '__main__':
-    model = ResNet50()
+    model = InceptionResNetV2()
     #print (model.summary())
-    image = load_img('mug.jpg', target_size=(224, 224))
+    image = load_img('mug.jpg', target_size=(299, 299))
     # convert the image pixels to a numpy array
     image = img_to_array(image)
     # reshape data for the model

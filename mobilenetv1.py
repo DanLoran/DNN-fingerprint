@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
-from keras.applications.resnet50 import preprocess_input
-from keras.applications.resnet50 import decode_predictions
-from keras.applications.resnet50 import ResNet50 
+from keras.applications.mobilenet import preprocess_input
+from keras.applications.mobilenet import decode_predictions
+from keras.applications.mobilenet import MobileNet
 
 # iteration count
-_iter = 1 
+_iter = 1
 
 if __name__ == '__main__':
-    model = ResNet50()
+    model = MobileNet(alpha=1.0)
     #print (model.summary())
     image = load_img('mug.jpg', target_size=(224, 224))
     # convert the image pixels to a numpy array
@@ -24,7 +24,7 @@ if __name__ == '__main__':
         input('{} iteration, press any key to perform...'.format(str(i)))
         yhat = model.predict(image)
 
-    # return if no iteration
+    # return if not iter
     if not _iter: exit() 
     # convert the probabilities to class labels
     label = decode_predictions(yhat)

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import cv2
 import numpy as np
 import copy
@@ -15,10 +13,6 @@ from keras import backend as K
 import sys
 sys.setrecursionlimit(3000)
 
-
-"""
-    Michael, You can update this var.
-"""
 _iter = 1
 
 
@@ -215,9 +209,6 @@ def resnet152_model(weights_path=None):
     return model
 
 
-"""
-    Main (to test)
-"""
 if __name__ == '__main__':
 
   im = cv2.resize(cv2.imread('mug.jpg'), (224, 224)).astype(np.float32)
@@ -247,7 +238,7 @@ if __name__ == '__main__':
 
   # predict the probability across all output classes
   for i in range(_iter):
-    raw_input('{} iteration, press any key to perform...'.format(str(i)))
+    input('{} iteration, press any key to perform...'.format(str(i)))
     out = model.predict(im)
 
   # return if no iteration
@@ -256,3 +247,5 @@ if __name__ == '__main__':
   # do prediction
   print ('This is a label, please don\'t care: ', np.argmax(out))
 
+#Error:
+#OSError: Unable to open file (unable to open file: name = 'pretraineds/resnet152_weights_tf.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

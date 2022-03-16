@@ -1,22 +1,22 @@
 #!/usr/bin/env python
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
-from keras.applications.resnet50 import preprocess_input
-from keras.applications.resnet50 import decode_predictions
-from keras.applications.resnet50 import ResNet50 
+from keras.applications.xception import preprocess_input
+from keras.applications.xception import decode_predictions
+from keras.applications.xception import Xception 
 
 # iteration count
 _iter = 1 
 
 if __name__ == '__main__':
-    model = ResNet50()
+    model = Xception()
     #print (model.summary())
-    image = load_img('mug.jpg', target_size=(224, 224))
+    image = load_img('mug.jpg', target_size=(299, 299))
     # convert the image pixels to a numpy array
     image = img_to_array(image)
     # reshape data for the model
     image = image.reshape((1, image.shape[0], image.shape[1], image.shape[2]))
-    # prepare the image for the VGG model
+    # prepare the image for the Xception model
     image = preprocess_input(image)
 
     # predict the probability across all output classes
